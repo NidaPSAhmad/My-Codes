@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main (){
+        int PIN;
+        printf("Enter Number: ");
+        scanf("%d",&PIN);
+        
+        
+        if(PIN == 8773)
+        printf("Congrats 💐 You are able to withdraw cash!");
+        else 
+        printf("Entered PIN is Wrong");
+        
+
+return 0;
+} 
